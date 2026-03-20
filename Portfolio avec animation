@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
 
+        .projet {
+            margin: 20px;
+            padding: 20px;
+            background: #eee;
+            transition: transform 0.3s;
+        }
+
+        .projet:hover {
+            transform: scale(1.1);
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Mes Projets</h1>
+
+<div class="projet">Site vitrine</div>
+<div class="projet">Application JS</div>
+<div class="projet">Blog</div>
+
+</body>
+</html>
