@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Site Vitrine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <h1>Mon Entreprise</h1>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Bienvenue sur mon site</h2>
+    <p>Je crée des sites web modernes et performants.</p>
+</section>
+
+<section class="services">
+    <h2>Mes services</h2>
+    <div class="card">Création de site</div>
+    <div class="card">SEO</div>
+    <div class="card">Maintenance</div>
+</section>
+
+<footer>
+    <p>© 2026 - Ton Nom</p>
+</footer>
+
+</body>
+</html>
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
