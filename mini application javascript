@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+</head>
+<body>
+
+<h2>Ma To-Do List</h2>
+
+<input type="text" id="tache">
+<button onclick="ajouterTache()">Ajouter</button>
+
+<ul id="liste"></ul>
+
+<script>
+function ajouterTache() {
+    let tache = document.getElementById("tache").value;
+    
+    if(tache === "") return;
+
+    let li = document.createElement("li");
+    li.textContent = tache;
+
+    document.getElementById("liste").appendChild(li);
+}
+</script>
+
+</body>
+</html>
